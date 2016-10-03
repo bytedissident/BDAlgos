@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		654DD1361DA08458007CB55D /* BDDataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654DD1351DA08458007CB55D /* BDDataStructures.swift */; };
+		654DD1381DA08851007CB55D /* BDDataStructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654DD1371DA08851007CB55D /* BDDataStructuresTests.swift */; };
 		659A567B1DA06583007ED85B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659A567A1DA06583007ED85B /* AppDelegate.swift */; };
 		659A567D1DA06583007ED85B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659A567C1DA06583007ED85B /* ViewController.swift */; };
 		659A56801DA06583007ED85B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659A567E1DA06583007ED85B /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		654DD1351DA08458007CB55D /* BDDataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDDataStructures.swift; sourceTree = "<group>"; };
+		654DD1371DA08851007CB55D /* BDDataStructuresTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BDDataStructuresTests.swift; sourceTree = "<group>"; };
 		659A56771DA06583007ED85B /* BDAlgos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDAlgos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659A567A1DA06583007ED85B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		659A567C1DA06583007ED85B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 				659A56831DA06583007ED85B /* LaunchScreen.storyboard */,
 				659A56861DA06583007ED85B /* Info.plist */,
 				659A569A1DA06599007ED85B /* BDAlgos.swift */,
+				654DD1351DA08458007CB55D /* BDDataStructures.swift */,
 			);
 			path = BDAlgos;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 			children = (
 				659A568F1DA06583007ED85B /* BDAlgosTests.swift */,
 				659A56911DA06583007ED85B /* Info.plist */,
+				654DD1371DA08851007CB55D /* BDDataStructuresTests.swift */,
 			);
 			path = BDAlgosTests;
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				659A567D1DA06583007ED85B /* ViewController.swift in Sources */,
+				654DD1361DA08458007CB55D /* BDDataStructures.swift in Sources */,
 				659A569B1DA06599007ED85B /* BDAlgos.swift in Sources */,
 				659A567B1DA06583007ED85B /* AppDelegate.swift in Sources */,
 			);
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				659A56901DA06583007ED85B /* BDAlgosTests.swift in Sources */,
+				654DD1381DA08851007CB55D /* BDDataStructuresTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

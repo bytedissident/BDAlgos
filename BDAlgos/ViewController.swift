@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         //print(bdAlgos.mergeSort(array:[10,8,2,12,44]))
         
         print("counting sort result")
-        print(bdAlgos.countingSort(array:[10,8,2,12,44],max:100))
+        //print(bdAlgos.countingSort(array:[10,8,2,12,44],max:100))
     }
 
     override func didReceiveMemoryWarning() {

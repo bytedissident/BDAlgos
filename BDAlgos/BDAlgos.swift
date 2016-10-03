@@ -82,7 +82,7 @@ class BDAlgos {
         return ordered;
     }
     
-    // O(lg n)
+    //O(lg n)
     func binarySearch(target:Int,array:Array<Int>)->Bool{
         
         var lowIndex = 0
