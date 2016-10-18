@@ -54,7 +54,7 @@ class BDAlgos {
         var pIndex = start
         
         for i in start..<end{
-            if array[i] <= pivot {
+            if array[i] <= pivot && i != pIndex {
                 swap(&array[i],&array[pIndex])
                 pIndex += 1
             }
