@@ -36,7 +36,7 @@ class BDAlgos {
     }
     
     //QUICKSORT
-    //θ O(n lg(n)) O(n squared)
+    //θ(n lg(n)), O(n squared), Ω(n lg(n))
     func quickSort(start:Int,end:Int , array:inout [Int]){
         if start >= end {
             return
