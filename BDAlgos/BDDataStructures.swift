@@ -94,8 +94,6 @@ class BDTrie{
         var counter = 0
         var node = root
         while counter < len {
-            while node != nil {
-            }
             
             counter += 1
         }

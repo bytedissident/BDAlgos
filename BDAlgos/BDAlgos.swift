@@ -35,6 +35,37 @@ class BDAlgos {
         return result
     }
     
+    //QUICKSORT
+    func quickSort(start:Int,end:Int , array:inout [Int]){
+        if start >= end {
+            return
+        }
+        
+        let pIndex = partion(start: start, end: end,array: &array)
+        quickSort(start: start, end: pIndex-1,array: &array)
+        quickSort( start: pIndex + 1, end: end,array: &array)
+        
+    }
+    
+    func partion(start:Int,end:Int, array:inout [Int])->Int{
+        
+        let pivot = array[end]
+        var pIndex = start
+        
+        for i in start..<end{
+            if array[i] <= pivot {
+                swap(&array[i],&array[pIndex])
+                pIndex += 1
+            }
+        }
+        
+        swap(&array[pIndex],&array[end])
+        return pIndex;
+    }
+    //END QUICKSORT
+    
+    
+    //MERGESORT
     //O(n lg(n))
     func mergeSort(array:Array<Int>)->[Int]{
 
@@ -81,6 +112,8 @@ class BDAlgos {
     
         return ordered;
     }
+    
+    //END MERGESORT
     
     //O(lg n)
     func binarySearch(target:Int,array:Array<Int>)->Bool{
