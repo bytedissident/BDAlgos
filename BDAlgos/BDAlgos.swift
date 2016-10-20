@@ -60,7 +60,9 @@ class BDAlgos {
             }
         }
         
-        swap(&array[pIndex],&array[end])
+        if array[end] < array[pIndex] {
+            swap(&array[pIndex],&array[end])
+        }
         return pIndex;
     }
     //END QUICKSORT
